@@ -1,1 +1,13 @@
 https://2ys2.tistory.com/2
+
+1. 필요한 것들 설치 후
+2-1. main.js 만들고
+2-2. index.html 만들고
+3. package.json에 함수 추가
+
+"main":"main.js",
+"scripts": {
+    "start":"electron ."
+},
+
+4. npm run start -> 브라우저 화면(index.html) 뜸
