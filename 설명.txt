@@ -1,3 +1,5 @@
+electron / vue 따로 버전
+
 https://2ys2.tistory.com/2
 
 1. 필요한 것들 설치 후
