@@ -13,3 +13,16 @@ https://2ys2.tistory.com/2
 },
 
 4. npm run start -> 브라우저 화면(index.html) 뜸
+
+
+//
+5. vuex (상태저장소)
+
+설치
+vue add vuex
+
+1; index.html의 input에 적힌 값을
+회원가입 버튼을 누르면
+store/index.js로 보내야함
+
+2; 새로고침을 해도 데이터 그대로 보존

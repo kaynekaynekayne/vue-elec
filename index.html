@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 <body>
     <div>
-        <input v-model="myid" placeholder="아이디">
-        <input v-model="mypassword" placeholder="비밀번호">
+        <div>
+            <input v-model="myid" placeholder="아이디">
+            <input v-model="mypassword" placeholder="비밀번호">
+            <p>{{this.$store.state.id}}</p>
+        </div>
+        <div>
+            <button v-on:click="register">회원가입</button>
+        </div>
     </div>
 </body>
 </html>
