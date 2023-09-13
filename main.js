@@ -15,7 +15,7 @@ function createMain(){
 // app 객체: electron의 생명주기를 관리한다
 // app 객체를 통해 앱의 라이프 사이클 관련 신호를 받을 수 있다
 
-// app의 준비가 완료됐을 때 이를 감지할 수 있음
+// app의 준비가 완료됐을 때 이를 감지할 수 있음\
 app.whenReady().then(()=>{
     createMain()
     // app.on('activate',()=>{
